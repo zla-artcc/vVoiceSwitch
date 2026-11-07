@@ -9464,6 +9464,11 @@
               "8111165",
               2,
               "RIV"
+            ],
+            [
+              "8111166",
+              2,
+              "GTYR"
             ]
           ],
           "tedPattern": {
@@ -12053,7 +12058,39 @@
               "8111165",
               2,
               "RIV"
+            ],
+            [
+              "8111171",
+              2,
+              "GLNR"
             ]
+          ],
+          "tedPattern": {
+            "patternName": "GLNR_TED",
+            "display": "LEFT",
+            "dimPercent": 50,
+            "pages": [
+              {
+                "pageNumber": 1,
+                "footer": "DRP",
+                "cells": [
+                  {
+                    "quad": 1,
+                    "row": 1,
+                    "col": 1,
+                    "type": "RADIO",
+                    "radioId": "GLNR"
+                  }
+                ]
+              }
+            ]
+          },
+          "radios": [
+            {
+              "id": "GLNR",
+              "name": "GLNR",
+              "freq": 135050000
+            }
           ]
         },
         {
@@ -15416,8 +15453,25 @@
               "8111165",
               2,
               "RIV"
+            ],
+            [
+              "8111167",
+              2,
+              "MORR"
             ]
-          ]
+          ],
+          "tedPattern": {
+            "patternName": "MORR_TED",
+            "display": "LEFT",
+            "dimPercent": 50,
+            "pages": [
+              {
+                "pageNumber": 1,
+                "footer": "DRP",
+                "cells": []
+              }
+            ]
+          }
         },
         {
           "cs": "LAX_X_DEP",
@@ -17236,8 +17290,25 @@
               "8111165",
               2,
               "RIV"
+            ],
+            [
+              "8111170",
+              2,
+              "PASR"
             ]
-          ]
+          ],
+          "tedPattern": {
+            "patternName": "PASR_TED",
+            "display": "LEFT",
+            "dimPercent": 50,
+            "pages": [
+              {
+                "pageNumber": 1,
+                "footer": "DRP",
+                "cells": []
+              }
+            ]
+          }
         },
         {
           "cs": "LAX_P1_APP",
@@ -20905,8 +20976,25 @@
               "8111165",
               2,
               "RIV"
+            ],
+            [
+              "8111168",
+              2,
+              "VLYR"
             ]
-          ]
+          ],
+          "tedPattern": {
+            "patternName": "VLYR_TED",
+            "display": "LEFT",
+            "dimPercent": 50,
+            "pages": [
+              {
+                "pageNumber": 1,
+                "footer": "DRP",
+                "cells": []
+              }
+            ]
+          }
         },
         {
           "cs": "SAN_W_APP",
@@ -21633,8 +21721,25 @@
               "8111165",
               2,
               "RIV"
+            ],
+            [
+              "8111169",
+              2,
+              "WDLR"
             ]
-          ]
+          ],
+          "tedPattern": {
+            "patternName": "WDLR_TED",
+            "display": "LEFT",
+            "dimPercent": 50,
+            "pages": [
+              {
+                "pageNumber": 1,
+                "footer": "DRP",
+                "cells": []
+              }
+            ]
+          }
         },
         {
           "cs": "LAX_Z_APP",
@@ -22305,16 +22410,28 @@
               "ui": "rdvs",
               "lines": [
                 [
-                  "8111009",
+                  "8111010",
                   0,
                   "Burbank"
                 ],
                 [
-                  "8111010",
+                  "8111173",
                   0,
-                  "Burbank"
+                  "DEL"
                 ]
-              ]
+              ],
+              "tedPattern": {
+                "patternName": "Clearance Delivery_TED",
+                "display": "LEFT",
+                "dimPercent": 50,
+                "pages": [
+                  {
+                    "pageNumber": 1,
+                    "footer": "DRP",
+                    "cells": []
+                  }
+                ]
+              }
             },
             {
               "cs": "BUR_GND",
@@ -22324,16 +22441,28 @@
               "ui": "rdvs",
               "lines": [
                 [
-                  "8111008",
+                  "8111010",
                   0,
                   "Burbank"
                 ],
                 [
-                  "8111010",
+                  "8111172",
                   0,
-                  "Burbank"
+                  "GND"
                 ]
-              ]
+              ],
+              "tedPattern": {
+                "patternName": "Ground Control_TED",
+                "display": "LEFT",
+                "dimPercent": 50,
+                "pages": [
+                  {
+                    "pageNumber": 1,
+                    "footer": "DRP",
+                    "cells": []
+                  }
+                ]
+              }
             },
             {
               "cs": "BUR_TWR",
@@ -22343,16 +22472,6 @@
               "ui": "rdvs",
               "lines": [
                 [
-                  "8111008",
-                  0,
-                  "Burbank"
-                ],
-                [
-                  "8111009",
-                  0,
-                  "Burbank"
-                ],
-                [
                   "3235001",
                   2,
                   "SCT"
@@ -22361,7 +22480,143 @@
                   "9999",
                   3,
                   "MULTI,DIAL"
+                ],
+                [
+                  "8111166",
+                  2,
+                  "GTY"
+                ],
+                [
+                  "8111000",
+                  2,
+                  "SCT"
+                ],
+                [
+                  "8111167",
+                  2,
+                  "MORR"
+                ],
+                [
+                  "8111168",
+                  2,
+                  "VLYR"
+                ],
+                [
+                  "8111169",
+                  2,
+                  "WDLR"
+                ],
+                [
+                  "8111170",
+                  2,
+                  "TWR"
+                ],
+                [
+                  "8111171",
+                  2,
+                  "GLNR"
+                ],
+                [
+                  "8111172",
+                  0,
+                  "GND"
+                ],
+                [
+                  "8111173",
+                  0,
+                  "DEL"
                 ]
+              ],
+              "tedPattern": {
+                "patternName": "Local Control_TED",
+                "display": "LEFT",
+                "dimPercent": 50,
+                "pages": [
+                  {
+                    "pageNumber": 1,
+                    "footer": "DRP",
+                    "cells": [
+                      {
+                        "quad": 1,
+                        "row": 1,
+                        "col": 1,
+                        "type": "RADIO",
+                        "radioId": "BUR"
+                      },
+                      {
+                        "quad": 1,
+                        "row": 2,
+                        "col": 1,
+                        "type": "RADIO",
+                        "radioId": "BURGND"
+                      },
+                      {
+                        "quad": 1,
+                        "row": 3,
+                        "col": 1,
+                        "type": "RADIO",
+                        "radioId": "BURDEL"
+                      },
+                      {
+                        "quad": 1,
+                        "row": 4,
+                        "col": 1,
+                        "type": "RADIO",
+                        "radioId": "BURRMP"
+                      },
+                      {
+                        "quad": 4,
+                        "row": 1,
+                        "col": 1,
+                        "type": "DA",
+                        "lineId": "3100039"
+                      },
+                      {
+                        "quad": 4,
+                        "row": 1,
+                        "col": 2,
+                        "type": "DA",
+                        "lineId": "3100071"
+                      },
+                      {
+                        "quad": 4,
+                        "row": 1,
+                        "col": 3,
+                        "type": "DA",
+                        "lineId": "3100211"
+                      },
+                      {
+                        "quad": 4,
+                        "row": 1,
+                        "col": 4,
+                        "type": "DA",
+                        "lineId": "3100190"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "radios": [
+                {
+                  "id": "BUR",
+                  "name": "LCL",
+                  "freq": 118700000
+                },
+                {
+                  "id": "BURGND",
+                  "name": "GND",
+                  "freq": 123900000
+                },
+                {
+                  "id": "BURDEL",
+                  "name": "DEL",
+                  "freq": 118000000
+                },
+                {
+                  "id": "BURRMP",
+                  "name": "RMP",
+                  "freq": 130875000
+                }
               ]
             }
           ],
